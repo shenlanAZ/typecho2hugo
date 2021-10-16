@@ -1,5 +1,7 @@
-# typecho2hugo
-export all your typecho posts in sqlite to hugo
+# Typecho2Hugo/Hexo
+export all your typecho posts in sqlite to hugo or hexo
+
+also applicable to hexo 
 
 ## Usage
 
@@ -7,8 +9,8 @@ export all your typecho posts in sqlite to hugo
 
 2. change prefix of database's tables in line 15 (if needed)
 
-3. `npm i`
+3. `yarn install` (or `npm i`)
 
-4. `npm start`
+4. `yarn start` ( or `npm start`)
 
 5. find all your hugo files in `./typecho2hugo`
